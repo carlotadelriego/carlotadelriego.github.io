@@ -1,0 +1,53 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f8ff; /* Fondo azul claro */
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 600px;
+    margin: auto;
+    background: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    border: 1px solid #b0e0e6; /* Borde azul claro */
+}
+
+h1 {
+    text-align: center;
+    color: #007bff; /* Título en azul más oscuro */
+    margin-bottom: 20px;
+}
+
+.question {
+    margin-bottom: 20px;
+}
+
+label {
+    font-weight: bold;
+    color: #0056b3; /* Texto de las preguntas en azul oscuro */
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #87ceeb; /* Azul claro para el botón */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #5f9ea0;
+}
+
+.result {
+    margin-top: 20px;
+    text-align: center;
+    font-weight: bold;
+    color: #4682b4; /* Color azul para el resultado */
+}
